@@ -1,6 +1,4 @@
-/* Driver program to test above functions*/
-int main()
-{
+int main() {
   float a=-2.0;
   struct node *root = newNode(4);
   root->left        = newNode(2);
