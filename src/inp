@@ -2,10 +2,11 @@ int main() {
     int x = 10;
     float y = 20.5;
  
-  if(isBST(root))
-    printf("Is BST");
-  else
-    printf("Not a BST");
+    if (x > 5) {
+        y = y + 2.5;
+    } else {
+        y = y - 1.5;
+    }
      
   getchar();
   return 0;
