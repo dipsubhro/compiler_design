@@ -7,7 +7,6 @@ int main() {
     } else {
         y = y - 1.5;
     }
-     
-  getchar();
-  return 0;
-} 
+    
+    return 0;
+}
