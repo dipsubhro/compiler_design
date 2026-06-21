@@ -1,0 +1,15 @@
+student@student-Veriton-M4660G:~/Compiler_design_lab/Intermediate$ bison -d parser.y  
+student@student-Veriton-M4660G:~/Compiler_design_lab/Intermediate$ flex lexer.l  
+student@student-Veriton-M4660G:~/Compiler_design_lab/Intermediate$ gcc -o compiler parser.tab.c lex.yy.c -lfl
+student@student-Veriton-M4660G:~/Compiler_design_lab/Intermediate$ ./compiler input.c
+Intermediate Code:
+
+t1 = 2 + 1
+t2 = 3 * t1
+t3 = 5 + t2
+x = t3
+t4 = x - 4
+y = t4
+student@student-Veriton-M4660G:~/Compiler_design_lab/Intermediate$ 
+
+
